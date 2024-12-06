@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Recording List</title>
+  </head>
+  <body>
+    <h1>Recoding List</h1>
+    <ul id="records">
+      <% records.forEach(function(record){ %>
+      <li>
+        <a href="<%= record %>"><%= record %></a>
+      </li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

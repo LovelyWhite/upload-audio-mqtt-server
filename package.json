@@ -1,0 +1,21 @@
+{
+  "name": "nfcshareserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.51.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mqtt": "^5.8.1",
+    "node-wav": "^0.0.2",
+    "wavefile": "^11.0.0",
+    "websocket-stream": "^5.5.2"
+  }
+}
